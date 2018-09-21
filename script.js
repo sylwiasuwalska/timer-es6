@@ -79,9 +79,7 @@ class Stopwatch extends React.Component {
 				</div>
 				<div className="spacer-score" id="scores">
 					<p>Scores:</p>
-					
-						{this.state.score.map((curr, i) => <div key={i}> {`${i+1}. ${curr}`} </div>)}
-					
+					{this.state.score.map((curr, i) => <div key={i}> {`${i+1}. ${curr}`} </div>)}
 				</div>
 			</div>
 		);
