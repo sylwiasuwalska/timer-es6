@@ -3,7 +3,6 @@ body {
 	background-color: #C70039;
 }
 
-
 .flex-container {
 	display: -webkit-flex;
 	display: flex;
@@ -35,7 +34,7 @@ body {
 	font-size: 4vh;
 	text-decoration: none;
 	text-transform: uppercase;
-	margin: 10px;
+	margin: 20px;
 }
 
 .reset {
@@ -45,6 +44,7 @@ body {
 
 .stopwatch {
 	align-items: center;
+	padding-top: 20vh;
 	flex-grow: 5;
 	font-family: "Courier", sans-serif;
 	font-size: 10vh;

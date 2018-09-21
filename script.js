@@ -68,7 +68,7 @@ class Stopwatch extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className="flex-cont">
+				<div className="flex-container">
 					<div className="stopwatch animated rubberBand">{this.format(this.state.times)}</div>
 					<nav>
 						<div className="jumbotron">
@@ -79,9 +79,9 @@ class Stopwatch extends React.Component {
 				</div>
 				<div className="spacer-score" id="scores">
 					<p>Scores:</p>
-					<ul>
-						{this.state.score.map((curr, i) => <li key={i}> {curr} </li>)}
-					</ul>
+					
+						{this.state.score.map((curr, i) => <div key={i}> {`${i+1}. ${curr}`} </div>)}
+					
 				</div>
 			</div>
 		);
