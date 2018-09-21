@@ -7,19 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body>
-    <div class="flex-container">
-      <div class="stopwatch jumbotron animated rubberBand" id="timer"></div>
-      <nav class="controls">
-        <div class="jumbotron">
-          <a href="#" class="button start animated" id="start">Start</a>
-          <a href="#" class="button reset" id="reset">Reset</a>
-        </div>
-      </nav>      
-    </div>
-    <div class="spacer-score" id="scores">
-      <p>Scores:</p>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+<body>
+  <div id="timer"></div>
+
+  <script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+  <script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+  <script src="https://github.com/babel/babel-standalone/releases/download/release-6.26.0/babel.min.js"></script>
+
+  <script type="text/babel" src="script.js"></script>
+</body>
 </html>

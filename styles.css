@@ -3,6 +3,7 @@ body {
 	background-color: #C70039;
 }
 
+
 .flex-container {
 	display: -webkit-flex;
 	display: flex;
@@ -12,6 +13,7 @@ body {
 	font-family: "Quicksand", sans-serif;
 	height: 50vh;
 }
+
 
 .jumbotron {
 	display: inline-flex;
@@ -39,7 +41,6 @@ body {
 .reset {
 	background-color: #571845;
 	justify-content: center;
-
 }
 
 .stopwatch {
