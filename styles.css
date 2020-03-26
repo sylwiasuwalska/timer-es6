@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background-color: #C70039;
+	background-color: #c70039;
 }
 
 .flex-container {
@@ -12,7 +12,6 @@ body {
 	font-family: "Quicksand", sans-serif;
 	height: 50vh;
 }
-
 
 .jumbotron {
 	display: inline-flex;
@@ -27,9 +26,9 @@ body {
 	align-items: center;
 	width: 14vh;
 	height: 8vh;
-	border: solid 2px  #C70039;
+	border: solid 2px #c70039;
 	border-radius: 5px;
-	background-color: #FF5733;
+	background-color: #ff5733;
 	color: #fff;
 	font-size: 4vh;
 	text-decoration: none;
@@ -60,7 +59,7 @@ body {
 	font-family: "Courier", sans-serif;
 	height: 50vh;
 	width: 100%;
-	background-color: #900C3E;
+	background-color: #900c3e;
 	color: white;
 }
 
